@@ -43,9 +43,7 @@ const Header = () => {
                             <div className="col-lg-3">
                                 <div className="header-left">
                                     <div className="logo">
-                                        <Link to="/">
-                                            <Img fixed={waxonLogo}  />
-                                        </Link>
+                                    <h3 className="title">DOMINIK PIKSA</h3>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +73,7 @@ const Header = () => {
                                         <li>
                                             <a className="menu-hover-link" href="/#portfolio">
                                                 <span className="hover-item">
-                                                    <span data-text="Oferta">Ofertao</span>
+                                                    <span data-text="Oferta">Oferta</span>
                                                 </span>
                                             </a>
                                         </li>

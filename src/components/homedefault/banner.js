@@ -41,16 +41,27 @@ const Banner = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-xl-6">
+                        
                             <div className="inner">
-                                <div className="content text-left">
+                                <div className="content text-right text-sm-left">
                                     <h1 className="title wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms" dangerouslySetInnerHTML={{ __html: Title }}></h1>
                                     <h4 className="subtitle wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms" dangerouslySetInnerHTML={{ __html: SubTitle }}></h4>
+                               
+                               <div className="row">
+                    <div className="col-lg-7">
+                        <div className="button-group  mt--150">
+                            <a className="rn-button wow fadeInRight mt--20" href="#portfolio"><span>Co możemy razem osiągnąć?</span></a>
+                            <a className="rn-button wow fadeInLeft mt--20" href="#contact"><span>Umów się na wizytę</span></a>
+                        </div>
+                    </div>
+                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             {/* End Single Slider  */}
             <div className="thumbnail">
                 <div className="trigger" id="trigger" />

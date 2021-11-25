@@ -1,7 +1,8 @@
 import React from 'react';
 import Img from "gatsby-image";
 import Image from "../elements/image";
-import { FiList, FiUser, FiInstagram } from "react-icons/fi";
+import { FiList, FiUser, FiInstagram, FiPocket  } from "react-icons/fi";
+import { BiMoney  } from "react-icons/bi";
 import Layout from "../components/layout";
 
 const ProjectDetails = ({data}) => {
@@ -21,29 +22,29 @@ const ProjectDetails = ({data}) => {
                                                 <div className="page-top">
                                                     <h1 className="title_holder">{projectData.title}</h1>
                                                 </div>
-                                                <h3 className="mt--20">Details</h3>
+                                                <h3 className="mt--20">Szczegóły</h3>
                                                 <ul className="list_holder">
-                                                    <li><span className="icon"><FiList />Category:</span><span className="projectinfo">{projectData.category}</span></li>
-                                                    <li><span className="icon"><FiUser />Client:</span><span className="projectinfo">{projectData.client}</span></li>
-                                                    <li><span className="icon"><FiInstagram />Images by:</span><span className="projectinfo">{projectData.imgesBY}</span></li>
+                                                    <li><span className="icon  ml--10 mr--10 text-justify"><FiList />Opis:</span><span className="projectinfo ml--10 mr--10 text-justify">{projectData.category}</span></li>
+                                                    <li><span className="icon  ml--10 mr--10 text-justify"><BiMoney/>Cena:</span><span className="projectinfo ml--10 mr--10">{projectData.client}</span></li>
+                                                   
                                                 </ul>
-                                                <p className="mt--20">{projectData.body}</p>
+                                                <p className="mt--20 ml--10 mr--10 text-justify">{projectData.body}</p>
                                             </div>
                                         </div>
                                         
                                     </div>
                                 </div>
-                                <div className="thumbnail mt--90 mt_md--40 mt_sm--40">
+                                {/* <div className="thumbnail mt--90 mt_md--40 mt_sm--40">
                                     <Image fluid={projectData.featured_image.childImageSharp.fluid} />
-                                </div>
+                                </div> */}
 
-                                <div className="image-group">
+                                {/* <div className="image-group">
                                     {projectImage.map((data, index) => (
                                         <div className="single-image mt--30" key={index}>
                                             <Img fluid={data.image.childImageSharp.fluid} />
                                         </div>
                                     ))}
-                                </div>   
+                                </div>    */}
 
                                
                             </div>

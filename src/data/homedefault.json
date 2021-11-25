@@ -1,8 +1,8 @@
 [
     {
         "id": "main-banner",
-        "title": "Dominik <span class='color-primary'>Piksa</span>",
-        "subtitle": "''Jakość ruchu to klucz do zdrowia i osiągnięcia Twoich celów''",
+        "title": "Terapia<span class='color-primary'>Trening</span>",
+        "subtitle": "''Mądry ruch to klucz do zdrowia i osiągnięcia Twoich celów''",
         "bgImage": "./images/banner/bg-image-02.jpg",
         "image": "./images/banner/person-image.jpg"
     },
@@ -11,8 +11,8 @@
         "id": "about",
         "title": "Dominik Piksa",
         "subtitle": "Terapeuta | Trener",
-        "description": "Cześć, mam na imię Dominik i zajmuje się ruchem od dziecka. Doświadczyłem na własnej skórze zabawy w gimnastykę sportową w podstawówce, aby następnie  przejść przez 3 treningi piłkarskie dziennie w okresie szkoły średniej i wreszcie skończyć z kontuzją na leżance u fizjo w wieku 16 lat, która wykluczyła mnie ze sportu na rok, ale pokazała ścieżke na reszte życia… ",
-        "description2": "Obecnie specjalizuje się w pomocy osobom, które chcą się rusząć lepiej. Biegać bez bólu, rzucać mocnej, bądź po prostu chcą sami zacząć swoją przygodę z ruchem lub po prostu lepiej wygladać ",
+        "description": "Cześć, mam na imię Dominik. Zajmuje się treningiem oraz terapią komplementarną, która daje mi narzędzia, aby wyrównać napięcia w ciele i jeszcze lepiej wesprzeć proces powrotu do zdrowia, bądź poprawy osiągnięć sportowych. Wybrałem swój sposób pracy, ponieważ sport i ruch towarzyszył mi od dziecka. Miałem szczęścia spróbować gimnastyki sportowej, wielu godzin pływania, aby w końcu zakochać się w piłce nożnej, z którą zostałem na długie lata. Wszystkie doświadczenia sportowe uświadomiły mi jak ważny jest odpowiedni trening oraz terapia, które przygotowują nas do wyzwań sportowych oraz w życiu codziennym. ",
+        "description2": "Dlatego ukończyłem magistra Fizjoterapii oraz odbyłem wiele kursów, które pokazały mi jak złożone jest funkcjonowanie ciała człowieka, a jednocześnie dały mi narzędzia, aby wspierać zdrowie. W wyniku nieustannego rozwoju i odkrycia wielu  narzędzi terapeutycznych pracuje obecnie jako trener oraz (naturo)terapeuta. ",
         "downloadButton": "Więcej",
         "linkBUtton": "Send Message",
         "aboutData": [
@@ -141,7 +141,7 @@
     },
     {
         "id": "contactus",
-        "title": "W razie pytań, zapraszam do kontaktu!",
+        "title": "Umów się na wizytę!",
         "subtitle": "Crowds are the most difficult thing for me these days because I have to walk with my head down and my eyes averted. There's still that part of me that wants to hold my head up, make eye contact and smile. (c)"
     }
 ]

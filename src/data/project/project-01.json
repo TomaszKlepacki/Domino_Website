@@ -1,14 +1,14 @@
 {
     "id": "project-03",
-    "title": "The Mountain",
-    "category": "Design",
-    "client": "Arloko Corp",
+    "title": "Trening personalny – funkcjonalny",
+    "category": "Poprawmy Twoją sylwetkę oraz stwórzmy zdrowe i sprawne ciało. ",
+    "client": "200zł / godzina",
     "imgesBY": "Draxler",
     "year": "2009 - 2019",
-    "featured_image": "./images/project-05.jpg",
+    "featured_image": "./images/project-08.jpg",
     "is_featured": true,
     "body": [
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        "Dzięki dbałości o jakość ruchu oraz technikę ćwiczeń możemy sprawić, aby czuć się lepiej na co dzień oraz świetnie wyglądać. Niezależnie czy zaczynasz swoją przygodę z siłownią, czy jesteś osobą zaawansowaną możemy zooptymalizować Twój ruch i usprawnić działanie Twojego układu mięśniowego, dzięki czemu łatwiej będzie osiągnąć Twój cel."
     ],
     "features": [
         {

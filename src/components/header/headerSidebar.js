@@ -57,9 +57,7 @@ const HeaderNoSidebar = () => {
                     {/* Header Logo  */}
                     <div className="header-left">
                         <div className="logo">
-                            <Link to="/">
-                                <Img fixed={waxonLogo}  />
-                            </Link>
+                           <h3 className="title">DOMINIK PIKSA</h3>
                         </div>
                     </div>
                     {/* Main Menu  */}

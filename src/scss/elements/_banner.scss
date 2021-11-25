@@ -4,18 +4,20 @@
 
 .banner-fixed-height {
     width: 100%;
-    height: 950px;
+    height: 100vh;
     display: flex;
+    
+    
     align-items: center;
     justify-content: center;
     @media #{$md-layout} {
-        height: 750px;
+        height: 100vh;
     }
     @media #{$sm-layout} {
-        height: 750px;
+        height: 100vh;
     }
     @media #{$large-mobile} {
-        height: 512px;
+        height: 100vh;
     }
 }
 
@@ -25,11 +27,13 @@
 ----------------------------*/
 .rn-slide {
     position: relative;
+    
     z-index: 3;
     &.slider-style-01 {
         .inner {
             position: relative;
             z-index: 4;
+            
             @media #{$large-mobile} {
                 padding-top: 56px;
             }
@@ -62,9 +66,9 @@
                
                 .title {
                     line-height: 1.4;
-                    -webkit-text-stroke: 1px #000;
+                    -webkit-text-stroke: 2px #000;
                     color: transparent;
-                    font-size: 120px;
+                    font-size: 70px;
                     font-weight: 900;
                     text-transform: uppercase;
                     margin: 0;
@@ -72,19 +76,26 @@
                     line-height: 1.1;
                     @media #{$lg-layout} {
                         font-size: 90px;
+                      
                     }
                     @media #{$md-layout} {
                         font-size: 60px;
+                     
                     }
                     @media #{$sm-layout} {
                         font-size: 73px;
+                        display:none;
                     }
                     @media #{$large-mobile} {
-                        font-size: 50px;
+                        font-size: 30px;
+                        display:none;
+                        
+                        margin-bottom: 20px;
                     }
                     span {
                         color: #000;
-                        font-size: 120px;
+                        line-height: 1.4;
+                        font-size: 70px;
                         font-weight: 900;
                         text-transform: uppercase;
                         margin: 0;
@@ -102,7 +113,7 @@
                             font-size: 90px;
                         }
                         @media #{$large-mobile} {
-                            font-size: 50px;
+                            font-size: 30px;
                         }
                     }
                 }
@@ -111,13 +122,22 @@
                     color: #333;
                     font-size: 15px;
                     line-height: 2.1;
-                    letter-spacing: .8px;
+                    letter-spacing: .6px;
                     font-weight: 600;
                     display: inline-block;
                     padding-top: 10px;
+                    margin-right: 10px;
+                    @media #{$large-mobile} {
+                        display:none;
+                    }
                 }
             }
         }
+    }
+
+    .rn-button{
+
+        
     }
     .rn_surface {
         z-index: -1;
@@ -126,6 +146,8 @@
 
 .rn-slider-area {
     position: relative;
+    
+    
     .thumbnail {
         position: absolute;
         top: 0;

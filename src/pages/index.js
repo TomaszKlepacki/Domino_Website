@@ -19,7 +19,7 @@ const Index = () => (
     <div className="portfolio-id" id="portfolio">
       <Project />
       {/* <Brand /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
     {/* <BlogPost /> */}
     <Contact />
